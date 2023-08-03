@@ -180,7 +180,7 @@ Do the following to create a Jenkins pipeline:
 
 Do the following to verify the WAR file is deployed successfully to your web app:
 
-1. Browse to the following URL: `http://&lt;app_name>.azurewebsites.net/api/calculator/ping`
+1. Browse to the following URL: `http://<app_name>.azurewebsites.net/api/calculator/ping`
 
 1. You should see text similar to the following:
 
@@ -189,7 +189,7 @@ Do the following to verify the WAR file is deployed successfully to your web app
     Today's date
     ```
 
-1. Browse to the following URL (substitute &lt;x> and &lt;y> with two values to be summed): http://&lt;app_name>.azurewebsites.net/api/calculator/add?x=&lt;x>&y=&lt;y>.
+1. Browse to the following URL (substitute &lt;x> and &lt;y> with two values to be summed): http://<app_name>.azurewebsites.net/api/calculator/add?x=&lt;x>&y=&lt;y>.
 
     ![Example of running the demo add](./media/deploy-to-azure-app-service-using-azure-cli/calculator-add.png)
 
